@@ -5,6 +5,25 @@ Python Scikit-learn NLP Forecasting Status
 
 This repository showcases three practical machine learning projects built around real business operations, not toy chatbots. Each project solves a different decision-support problem: demand forecasting, support ticket routing, and candidate screening.
 
+About Me
+I am building a portfolio focused on practical machine learning systems that solve real business problems. My work here emphasizes clear problem framing, clean Python implementation, interpretable results, and project write-ups that both technical and non-technical stakeholders can understand.
+
+This portfolio is especially focused on:
+
+machine learning for business operations
+NLP workflows for support and hiring decisions
+decision-support systems that can be explained clearly to managers, recruiters, and clients
+Portfolio Highlights
+Project	Business Use Case	Core ML/NLP Approach	Current Result
+superstore-sales-forecasting	Forecast sales for planning and inventory	Time-series style feature engineering with Ridge regression	6-month forecast with holdout evaluation and charts
+support-ticket-classification	Route customer tickets and surface urgency	TF-IDF plus linear text classification	75.0% category accuracy on sample labeled tickets
+resume-screening-system	Rank candidates against a target role	TF-IDF similarity plus skill coverage scoring	Top candidate identified with explicit skill gaps
+Why This Repo Stands Out
+Focuses on business workflows that companies actually automate
+Includes runnable code, sample data, generated outputs, and project-level documentation
+Balances technical implementation with plain-language explanations for managers and recruiters
+Repository Structure
+
 FUTURE INTERN PROJECTS/
   projects/
     superstore-sales-forecasting/
